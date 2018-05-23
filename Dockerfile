@@ -7,3 +7,4 @@ RUN chmod +x /bin/json2hcl
 RUN apk --update add git bash curl terraform
 
 RUN gem install octokit
+
