@@ -4,4 +4,6 @@ ADD https://github.com/kvz/json2hcl/releases/download/v0.0.6/json2hcl_v0.0.6_lin
 
 RUN chmod +x /bin/json2hcl
 
-RUN apk update && apk add git bash terraform
+RUN apk --update add git bash curl terraform
+
+RUN gem install octokit
