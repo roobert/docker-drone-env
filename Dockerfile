@@ -1,4 +1,4 @@
-FROM roobert/erb-hiera:0.5.0-rc1
+FROM roobert/erb-hiera:0.5.0-rc2
 
 ENV TERRAFORM_VERSION="0.11.7"
 
