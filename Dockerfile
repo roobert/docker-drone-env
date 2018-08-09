@@ -9,4 +9,4 @@ RUN wget -q -O /terraform.zip "https://releases.hashicorp.com/terraform/${TERRAF
     unzip /terraform.zip -d /bin && \
     apk del --purge wget unzip && \
     rm -rf /var/cache/apk/* /terraform.zip
-RUN gem install octokit
+RUN gem install octokit gclouder_undefined_resources
