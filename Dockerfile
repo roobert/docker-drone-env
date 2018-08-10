@@ -20,3 +20,4 @@ RUN gem install octokit gclouder_undefined_resources
 # google sdk
 RUN curl -sSL https://sdk.cloud.google.com | bash
 ENV PATH $PATH:/root/google-cloud-sdk/bin
+RUN gcloud --quiet components install alpha beta bq gsutil kubectl
